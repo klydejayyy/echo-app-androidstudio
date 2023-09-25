@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">EHCO</string>
+    <string name="invalid_input">Please Enter a Word</string>
+</resources>

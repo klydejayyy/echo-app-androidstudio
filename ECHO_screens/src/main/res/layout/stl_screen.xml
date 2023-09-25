@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="370dp"
+    android:layout_height="450dp"
+    android:padding="5dp"
+    android:layout_gravity="center">
+
+    <pl.droidsonroids.gif.GifImageView
+        android:layout_width="364dp"
+        android:layout_height="443dp"
+        android:src="@drawable/stl_bg"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.571"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/exitSTL_button"
+        android:layout_width="35dp"
+        android:layout_height="41dp"
+        android:fontFamily="@font/baloo_bhai_2"
+        android:gravity="center"
+        android:text="x"
+        android:textSize="40dp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.952"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.038" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

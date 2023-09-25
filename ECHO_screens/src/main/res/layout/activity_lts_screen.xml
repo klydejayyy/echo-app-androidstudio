@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradient_bg"
+    tools:context=".LTS_screen">
+
+    <ImageButton
+        android:onClick="openDialog"
+        android:id="@+id/questionMark_button_"
+        android:layout_width="44dp"
+        android:layout_height="42dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.044"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.023"
+        app:srcCompat="@drawable/question_mark" />
+
+    <EditText
+        android:id="@+id/WordToTranslate_text"
+        android:layout_width="273dp"
+        android:layout_height="54dp"
+        android:ems="10"
+        android:fontFamily="@font/poppins"
+        android:inputType="textPersonName"
+        android:hint="What should I translate?"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.348" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/poppins"
+        android:text="Letters to sign language"
+        app:layout_constraintBottom_toTopOf="@+id/WordToTranslate_text"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.828" />
+
+    <Button
+        android:id="@+id/Translate_button"
+        android:layout_width="149dp"
+        android:layout_height="56dp"
+        android:background="@drawable/button_style"
+        android:backgroundTint="@color/LTS_darkBlue"
+
+        android:fontFamily="@font/poppins"
+        android:shadowColor="#055A96"
+        android:text="Translate"
+        android:textColor="#F8FCF2"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/WordToTranslate_text"
+        app:layout_constraintVertical_bias="0.102"
+        app:strokeColor="#055A96" />
+</androidx.constraintlayout.widget.ConstraintLayout>
