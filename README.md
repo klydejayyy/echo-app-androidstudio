@@ -7,8 +7,10 @@ ECHO is an American sign language application designed to translate sign languag
 ## Demos
 
 
-https://github.com/user-attachments/assets/53a2ab04-1c03-4438-a087-6988715e101c
 ![ECHO-demo](https://github.com/user-attachments/assets/0993678d-4a5f-47db-b8f4-30db78074235)
+
+https://github.com/user-attachments/assets/b32ede61-8278-4a49-b69c-731878fb8476
+
 
 
 
