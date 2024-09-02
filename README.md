@@ -4,13 +4,15 @@ ECHO is an American sign language application designed to translate sign languag
 
 
 
-## Demo
+## Demos
+
+
+https://github.com/user-attachments/assets/53a2ab04-1c03-4438-a087-6988715e101c
+![ECHO-demo](https://github.com/user-attachments/assets/0993678d-4a5f-47db-b8f4-30db78074235)
 
 
 
-<p align= "center>
-  <img src="https://github.com/user-attachments/assets/53bb6348-2821-4e6b-9df0-907923ae54f3" width="100" /> <img src="https://github.com/user-attachments/assets/e87482a7-f778-467c-a7e3-9bddc94c6ac8" width="100" />
-</p>
+
 
 ## Presentation for the whole Project
 
